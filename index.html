@@ -10,7 +10,7 @@
 	<body>
         <div class="secciones">
             <div class="Home">
-                
+            
                 <a href="#home"> <img src="image/iconoHome.png" alt="iconCasa" width="70" height="70"> </a>
                     <p> Inicio </p>
                 
@@ -33,6 +33,29 @@
                     <p> Contáctame </p>
                 
             </div>
+        </div>
+        <div class="menu">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">Inicio</a>
+                    <a href="#">¿Quién soy?</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Contáctame</a>
+                </div>
+            </div>
+            
+            <span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776; Menu</span>
+
+            <script>
+                function openNav() {
+                    document.getElementById("myNav").style.width = "100%";
+                }
+
+                function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+            </script>
         </div>
         <div class="sectionDefault">
             <div>
