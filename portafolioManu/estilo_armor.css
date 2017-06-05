@@ -1,0 +1,290 @@
+
+body{
+    background-image:url(image/imagenContacto.jpg);
+    background-position:top;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content 
+{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a 
+{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgba(183, 50, 50, 0.83);
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus 
+{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn 
+{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+}
+
+.Home:hover {
+    border: 3px solid #b0c325;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+.Personal:hover {
+    border: 3px solid #b0c325;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+.Trabajos:hover {
+    border: 3px solid #b0c325;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+.Contacto:hover {
+    border: 3px solid #b0c325;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+
+}
+.p{
+    font-size: 25px;
+}
+.desc{
+    padding-top: 20px;  
+}
+.secciones{
+    background-color: rgba(183, 50, 50, 0.83);
+    border: 2px solid #501a09;
+    border-radius: 10px;
+    float: right;
+    width: 90px;
+    height: 570px;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: fixed;
+    text-align: center;
+}
+
+.sectionDefault{
+    float: right;
+    width: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(183, 50, 50, 0.83);
+    background-position: center;
+    color: beige;
+    margin-top: 40px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+}
+.soyYo {
+    text-align: center;
+	background-color: rgba(183, 50, 50, 0.83);
+    float: right;
+    width: 80%;
+    margin: 10px;
+    color: beige;
+    margin-top: 40px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+    text-shadow: 3px 2px #6c3727;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #6c3727;
+    border-radius: 20px;
+    float: right;
+}
+.software {
+    text-align: center;
+	background-color: rgba(183, 50, 50, 0.83);
+    float: right;
+    width: 80%;
+    margin: 10px;
+    color: beige;
+    margin-top: 40px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+    text-shadow: 3px 2px #6c3727;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #6c3727;
+    border-radius: 20px;
+    float: right;
+}
+.contacto {
+    text-align: center;
+	background-color: rgba(183, 50, 50, 0.83);
+    float: right;
+    width: 80%;
+    margin: 10px;
+    color: beige;
+    margin-top: 40px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+    text-shadow: 3px 2px #6c3727;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #6c3727;
+    border-radius: 20px;
+    float: right;
+}
+.trabajos {
+    text-align: center;
+	background-color: rgba(183, 50, 50, 0.83);
+    float: right;
+    width: 80%;
+    margin: 10px;
+    color: beige;
+    margin-top: 40px;
+    margin-right: 120px;
+    padding-bottom: 20px;
+    text-shadow: 3px 2px #6c3727;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #6c3727;
+    border-radius: 20px;
+    float: right;
+}
+.foto1
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 5px; 
+}
+.foto2
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto3
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto4
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto5
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto6
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.foto7
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto8
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.foto9
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+}
+.foto10
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+}
+.foto11
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+    margin-left: 5px;
+}
+.foto12
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+}
+.foto13
+{
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+}
+
